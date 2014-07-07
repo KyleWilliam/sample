@@ -15,9 +15,10 @@ require 'spec_helper'
     describe "signup page" do
       before { visit signup_path }
 
-      it { should have_content('Sign Up') }
-      it { should have_title(full_title('Sign Up')) }
+      it { should have_content('Sign up') }
+      it { should have_title(full_title('Sign up')) }
     end
+
   describe "signup" do
 
     before { visit signup_path }
